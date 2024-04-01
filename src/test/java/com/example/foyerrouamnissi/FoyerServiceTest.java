@@ -29,7 +29,7 @@ import org.junit.jupiter.api.Test;
 @SpringBootTest
 @ActiveProfiles("test")
  class FoyerServiceTest {
-/*
+
     @Mock
     private FoyerRepository foyerRepository; // Mock the repository
 
@@ -129,7 +129,7 @@ import org.junit.jupiter.api.Test;
         Assertions.assertEquals("Name Updated", updatedFoyer.getNomFoyer());
     }
 
-}*/
+}
 
 /*@SpringBootTest
 class FoyerServiceTest {
@@ -199,5 +199,3 @@ class FoyerServiceTest {
         Assertions.assertNull(deletedFoyer);
     }
 }*/
-
-}
